@@ -7,6 +7,15 @@
 }
 body{
     background: #265A6A;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Dongle', sans-serif;
+font-family: 'Fruktur', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Praise', cursive;
+font-family: 'Zen Antique Soft', serif;
 }
 .container{
     width: 1140px;
@@ -102,6 +111,83 @@ border-radius: 25px;
  width: 100px;
  font-size: 18px;
 top: 10px;
+    }
+    .section .container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    .section-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section-main{
+width: 273px;
+height: 251px;
+
+background: #FFFFFF;
+box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+border-radius: 30px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+margin-top: 100px;
+box-shadow:2px 3px 2px black;
+    }
+    .text{
+        text-align: center;
+        width: 510px;
+height: 120px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 60px;
+/* or 133% */
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: #283b41;
+    }
+    .section-main img{
+        width: 70px;
+        position: absolute;
+        bottom: -420px;
+        margin-left: 20px;
+    }
+
+    .section-main h4{
+        width: 155px;
+height: 29px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+margin-top: 50px;
+margin-left: 20px;
+
+color: #0F1221;
+    }
+    .section-main p{
+        width: 215px;
+height: 73px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 160% */
+margin-left: 20px;
+margin-top: 30px;
+
+color: #696969;
     }
 
 
