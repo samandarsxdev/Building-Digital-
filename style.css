@@ -155,7 +155,7 @@ color: #283b41;
     .section-main img{
         width: 70px;
         position: absolute;
-        bottom: -421px;
+        bottom: -441px;
         margin-left: 20px;
     }
 
@@ -245,7 +245,12 @@ margin-top: 30px;
 
 color: #696969;
  }  
-
+ .section-main img{
+    width: 70px;
+    position: absolute;
+    bottom: -561px;
+    margin-left: 20px;
+}
 
 }
 
@@ -254,7 +259,9 @@ color: #696969;
         width: 900px;
         margin: 0 auto;
     }
-
+  .img{
+    width: 550px;
+  }
 }   
 @media (max-width:920px){
     .container{
